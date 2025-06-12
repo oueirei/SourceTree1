@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center; /* 水平方向に中央配置 */
+    align-items: center;/* 垂直方向に中央配置 */
+    height: 100vh;
+    background-color: rgb(208, 235, 122);
+}
+.form_f{
+    position: relative;
+}
+.login-L{
+    margin: 10px auto;
+}
+.input-I{
+    height:30px;
+    width:200px;
+}
+#Btn-L{
+    position:absolute;
+    left:18%;
+    bottom:-45%;
+}
+.button-L{
+    background-color:#a4e3a7;
+    border:#ddf0de solid 1px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #a0f0a4;
+    font-size: 20px;
+    display:inline;
+}
+.button-L:active {
+    background-color:#45a049;
+}
+
+
+
+.button-M{
+    height:20px;
+    width:5px;
+    background-color: #a4e3a7;
+}
+#current-time{
+    height:25px;
+    width:200px;
+    background-color: #86a3ed;
+    font-size: 20px;
+    position:absolute;
+    bottom:10%;
+    right:10%;
+}
+.button-P{
+    border:#ddf0de solid 2px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(246, 191, 51);;
+    font-size: 20px;
+}
+.button-P:active {
+    background-color:#45a049;
+}
+
+
+
+.alarm{
+    border: rgb(245, 173, 173) 2px solid;
+    background-color: #f59c9c;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    position:absolute;
+    top:18%;
+}
+table{
+    border-spacing: 5px 10px;
+}
+#table-F{
+    text-align: center;
+}
+#textArea{
+    overflow:auto;
+}
+#F-Sent{
+    margin-bottom:20px ;
+}
+.title-1{
+    position:absolute;
+    top:8%;
+}
+.button-B{
+    position:absolute;
+    top:15%;
+    left:60%;
+}
+
+.nextBefore{
+    position:absolute;
+    left:45%;
+    bottom:15%;
+}
+
+#noteD{
+    width:50%;
+    height:20%;
+}
+.note{
+    width:80px;
+    text-align:center;
+    padding: 10px;
+    border-radius: 8px;
+    cursor:pointer;
+}
+#note-t{
+    display:none;
+}
+
+#drop-area {
+    border: 2px dashed #aaa;
+    border-radius: 10px;
+    width: 300px;
+    height:200px;
+    margin-left:20px;
+    cursor:pointer;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+#fileInput{
+    display: block;
+    height:100%;
+    width:100%; 
+}
+#drop-area.hover {
+    background-color: #5a5858;    
+}
+#file-C{
+    background-color: hwb(144 85% 4% / 0.737);
+    font-size:15px;
+    text-align: center;
+    width:100%;
+    overflow-wrap: break-word;
+
+}
+
+#birth-input{
+    height:50px;
+    width:200px;
+    font-size:20px;
+    background-color: #aaa;
+    border-radius: 10px;
+    text-align: center;
+    margin-left:15px;
+}
+
+
+#finalDataD{
+    font-size: 20px;
+    width:70%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+#finalData{
+    border-collapse: collapse;
+    border:#686565 solid 1px;
+    max-width: 100%;
+    min-width: 50%;
+    
+}
+#finalData td:first-child{
+    width:150px;
+}
+#finalData td{
+    border:#686565 solid 1px;
+}
