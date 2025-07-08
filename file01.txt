@@ -1,1 +1,2 @@
 this is a file ,i use this file to test git.
+i think i can do will.
