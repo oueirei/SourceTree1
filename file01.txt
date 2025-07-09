@@ -1,3 +1,8 @@
 this is a file ,i use this file to test git.
 i think i can do will.
+<<<<<<< HEAD
 I will have enough money
+=======
+
+I will have happiness until I leave from the world.
+>>>>>>> dev-1
